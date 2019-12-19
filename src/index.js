@@ -6,10 +6,9 @@ import BetrayalCheatSheet from "./components/BetrayalCheatSheet";
 ReactDOM.render(<BetrayalCheatSheet />, document.getElementById('root'));
 window.onload=() => {
     const table = document.querySelector('#SyndicateTable');
-    console.log(table);
     table.addEventListener('click', (e) => {
         let cell = e.target;
-        while (cell.tagName) {
+        while (cell && cell.tagName) {
             if (cell.tagName === 'TD') {
                 break;
             }
