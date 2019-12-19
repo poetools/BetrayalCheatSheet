@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66d22deb9372bff0b4307c3574c59fcc",
+    "revision": "b656bf4c6727c02f903df54476377e59",
     "url": "/BetrayalCheatSheet/index.html"
   },
   {
-    "revision": "e80e517d541212cbcec7",
+    "revision": "350dcf7fc34777414954",
     "url": "/BetrayalCheatSheet/static/css/main.e88b07cc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BetrayalCheatSheet/static/js/2.f860a082.chunk.js.LICENSE"
   },
   {
-    "revision": "e80e517d541212cbcec7",
-    "url": "/BetrayalCheatSheet/static/js/main.50f95d87.chunk.js"
+    "revision": "350dcf7fc34777414954",
+    "url": "/BetrayalCheatSheet/static/js/main.a8e130a3.chunk.js"
   },
   {
     "revision": "54670da492eb3b35b84b",
