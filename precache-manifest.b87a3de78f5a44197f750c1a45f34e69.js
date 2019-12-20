@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd817246802bdd8de608e3fe602c1258",
+    "revision": "0964267935c7914205d780565f9a2076",
     "url": "/BetrayalCheatSheet/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BetrayalCheatSheet/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "226a95806edf9cef06e2",
-    "url": "/BetrayalCheatSheet/static/css/main.2f52e58b.chunk.css"
+    "revision": "3f47ac487986b6f6e886",
+    "url": "/BetrayalCheatSheet/static/css/main.9a70fe94.chunk.css"
   },
   {
     "revision": "882bae8c316ed61d5b33",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BetrayalCheatSheet/static/js/2.25dc0667.chunk.js.LICENSE"
   },
   {
-    "revision": "226a95806edf9cef06e2",
+    "revision": "3f47ac487986b6f6e886",
     "url": "/BetrayalCheatSheet/static/js/main.48546cb9.chunk.js"
   },
   {
