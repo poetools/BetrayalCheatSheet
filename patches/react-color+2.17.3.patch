@@ -1,0 +1,54 @@
+diff --git a/node_modules/react-color/lib/components/chrome/ChromeFields.js b/node_modules/react-color/lib/components/chrome/ChromeFields.js
+index 88e5c3d..4236a1e 100644
+--- a/node_modules/react-color/lib/components/chrome/ChromeFields.js
++++ b/node_modules/react-color/lib/components/chrome/ChromeFields.js
+@@ -121,8 +121,8 @@ var ChromeFields = exports.ChromeFields = function (_React$Component) {
+       }
+     }
+   }, {
+-    key: 'componentWillReceiveProps',
+-    value: function componentWillReceiveProps(nextProps) {
++    key: 'UNSAFE_componentWillReceiveProps',
++    value: function UNSAFE_componentWillReceiveProps(nextProps) {
+       if (nextProps.hsl.a !== 1 && this.state.view === 'hex') {
+         this.setState({ view: 'rgb' });
+       }
+diff --git a/node_modules/react-color/lib/components/common/ColorWrap.js b/node_modules/react-color/lib/components/common/ColorWrap.js
+index 603589f..a916e70 100644
+--- a/node_modules/react-color/lib/components/common/ColorWrap.js
++++ b/node_modules/react-color/lib/components/common/ColorWrap.js
+@@ -65,8 +65,8 @@ var ColorWrap = exports.ColorWrap = function ColorWrap(Picker) {
+     }
+ 
+     _createClass(ColorPicker, [{
+-      key: 'componentWillReceiveProps',
+-      value: function componentWillReceiveProps(nextProps) {
++      key: 'UNSAFE_componentWillReceiveProps',
++      value: function UNSAFE_componentWillReceiveProps(nextProps) {
+         this.setState(_extends({}, _color2.default.toState(nextProps.color, this.state.oldHue)));
+       }
+     }, {
+diff --git a/node_modules/react-color/lib/components/common/EditableInput.js b/node_modules/react-color/lib/components/common/EditableInput.js
+index bfd8347..754b99b 100644
+--- a/node_modules/react-color/lib/components/common/EditableInput.js
++++ b/node_modules/react-color/lib/components/common/EditableInput.js
+@@ -110,8 +110,8 @@ var EditableInput = exports.EditableInput = function (_ref) {
+   }
+ 
+   _createClass(EditableInput, [{
+-    key: 'componentWillReceiveProps',
+-    value: function componentWillReceiveProps(nextProps) {
++    key: 'UNSAFE_componentWillReceiveProps',
++    value: function UNSAFE_componentWillReceiveProps(nextProps) {
+       var input = this.input;
+       if (nextProps.value !== this.state.value) {
+         if (input === document.activeElement) {
+@@ -139,7 +139,7 @@ var EditableInput = exports.EditableInput = function (_ref) {
+   }, {
+     key: 'setUpdatedValue',
+     value: function setUpdatedValue(value, e) {
+-      var onChangeValue = this.props.label !== null ? this.getValueObjectWithLabel(value) : value;
++      var onChangeValue = this.props.label ? this.getValueObjectWithLabel(value) : value;
+       this.props.onChange && this.props.onChange(onChangeValue, e);
+ 
+       var isPercentage = getIsPercentage(e.target.value);
