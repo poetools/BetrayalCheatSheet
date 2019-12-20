@@ -32,10 +32,12 @@ section {
 
 #cheatsheet-table img {
     width: 5vw;
+    max-width: 108px;
 }
 
 #t10 img, #t20 img, #t30 img, #t40 img {
     width: 3vw;
+    max-width: 65px;
 }
 
 #cheatsheet-table table, th, td {
