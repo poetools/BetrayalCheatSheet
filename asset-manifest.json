@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BetrayalCheatSheet/static/css/main.edf061ae.chunk.css",
-    "main.js": "/BetrayalCheatSheet/static/js/main.dd34b522.chunk.js",
-    "main.js.map": "/BetrayalCheatSheet/static/js/main.dd34b522.chunk.js.map",
+    "main.js": "/BetrayalCheatSheet/static/js/main.85af6907.chunk.js",
+    "main.js.map": "/BetrayalCheatSheet/static/js/main.85af6907.chunk.js.map",
     "runtime-main.js": "/BetrayalCheatSheet/static/js/runtime-main.b97d7218.js",
     "runtime-main.js.map": "/BetrayalCheatSheet/static/js/runtime-main.b97d7218.js.map",
     "static/css/2.17e5ed98.chunk.css": "/BetrayalCheatSheet/static/css/2.17e5ed98.chunk.css",
     "static/js/2.25dc0667.chunk.js": "/BetrayalCheatSheet/static/js/2.25dc0667.chunk.js",
     "static/js/2.25dc0667.chunk.js.map": "/BetrayalCheatSheet/static/js/2.25dc0667.chunk.js.map",
     "index.html": "/BetrayalCheatSheet/index.html",
-    "precache-manifest.74aa2f806d8814862c8913a0f5e2cd02.js": "/BetrayalCheatSheet/precache-manifest.74aa2f806d8814862c8913a0f5e2cd02.js",
+    "precache-manifest.1c4a33a968fa20eea67fc54efb53e836.js": "/BetrayalCheatSheet/precache-manifest.1c4a33a968fa20eea67fc54efb53e836.js",
     "service-worker.js": "/BetrayalCheatSheet/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/BetrayalCheatSheet/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.edf061ae.chunk.css.map": "/BetrayalCheatSheet/static/css/main.edf061ae.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.25dc0667.chunk.js",
     "static/css/main.edf061ae.chunk.css",
-    "static/js/main.dd34b522.chunk.js"
+    "static/js/main.85af6907.chunk.js"
   ]
 }

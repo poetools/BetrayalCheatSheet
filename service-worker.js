@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BetrayalCheatSheet/precache-manifest.74aa2f806d8814862c8913a0f5e2cd02.js"
+  "/BetrayalCheatSheet/precache-manifest.1c4a33a968fa20eea67fc54efb53e836.js"
 );
 
 self.addEventListener('message', (event) => {
