@@ -211,7 +211,7 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/cameria/1transport.png'} alt={'Transport'} description={"1 Timeworn Unique"} id={'t12'} colourID={this.state.selected[TABLE_COL_SIZE + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/1transport.png'} alt={'Transport'} description={"1/2/3 Unique Weapons"} id={'t13'} colourID={this.state.selected[TABLE_COL_SIZE + 3]}/>
                     <BetrayalTableCell img={'assets/encounters/gravicius/1transport.png'} alt={'Transport'} description={"1 Full Stack of Div. Cards"} id={'t14'} colourID={this.state.selected[TABLE_COL_SIZE + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/1transport.png'} alt={'Transport'} description={"8/12/16/? Timed Craft"} id={'t15'} colourID={this.state.selected[TABLE_COL_SIZE + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/1transport.png'} alt={'Transport'} description={"16/24/32/48 Timed Craft"} id={'t15'} colourID={this.state.selected[TABLE_COL_SIZE + 5]}/>
                     <BetrayalTableCell img={'assets/encounters/haku/1transport.png'} alt={'Transport'} description={"Rare Items"} id={'t16'} colourID={this.state.selected[TABLE_COL_SIZE + 6]}/>
                     <BetrayalTableCell img={'assets/encounters/hillock/1transport.png'} alt={'Transport'} description={"24/26/28/30 Quality to Weapon"} id={'t17'} colourID={this.state.selected[TABLE_COL_SIZE + 7]}/>
                     <BetrayalTableCell img={'assets/encounters/it_that_fled/1transport.png'} alt={'Transport'} description={"Breach Splinters"} id={'t18'} colourID={this.state.selected[TABLE_COL_SIZE + 8]}/>
@@ -231,7 +231,7 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/cameria/2fort.png'} alt={'Fortification'} description={"Harbinger Orbs"} id={'t22'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/2fort.png'} alt={'Fortification'} description={"1/2/3 Unique Armours"} id={'t23'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 3]}/>
                     <BetrayalTableCell img={'assets/encounters/gravicius/2fort.png'} alt={'Fortification'} description={"Random Div. Cards"} id={'t24'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/2fort.png'} alt={'Fortification'} description={"10/15/20/32 Timed Craft"} id={'t25'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/2fort.png'} alt={'Fortification'} description={"20/30/40/60 Timed Craft"} id={'t25'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 5]}/>
                     <BetrayalTableCell img={'assets/encounters/haku/2fort.png'} alt={'Fortification'} description={"Magic/Rare/Unique Strongbox"} id={'t26'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 6]}/>
                     <BetrayalTableCell img={'assets/encounters/hillock/2fort.png'} alt={'Fortification'} description={"24/26/28/30 Quality to Armour"} id={'t27'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 7]}/>
                     <BetrayalTableCell img={'assets/encounters/it_that_fled/2fort.png'} alt={'Fortification'} description={"Enchanted Maps (Breach)"} id={'t28'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 8]}/>
@@ -251,7 +251,7 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/cameria/3research.png'} alt={'Research'} description={"Sextants"} id={'t32'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/3research.png'} alt={'Research'} description={"1/2/3 Unique Jewellery"} id={'t33'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 3]}/>
                     <BetrayalTableCell img={'assets/encounters/gravicius/3research.png'} alt={'Research'} description={"Swap your Div. Card for a random one"} id={'t34'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/3research.png'} alt={'Research'} description={"10/15/20/32 Timed Craft"} id={'t35'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/3research.png'} alt={'Research'} description={"20/30/40/60 Timed Craft"} id={'t35'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 5]}/>
                     <BetrayalTableCell img={'assets/encounters/haku/3research.png'} alt={'Research'} description={"Rare Items with Quality"} id={'t36'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 6]}/>
                     <BetrayalTableCell img={'assets/encounters/hillock/3research.png'} alt={'Research'} description={"22/24/26/28 Quality to Flask"} id={'t37'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 7]}/>
                     <BetrayalTableCell img={'assets/encounters/it_that_fled/3research.png'} alt={'Research'} description={"T1/T2/T3/2xT3 Upgrade Breachstone"} id={'t38'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 8]}/>
@@ -271,7 +271,7 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/cameria/4intervention.png'} alt={'Intervention'} description={"Sulphite\nScarab"} id={'t42'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/4intervention.png'} alt={'Intervention'} description={"Reliquary\nScarab"} id={'t43'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 3]}/>
                     <BetrayalTableCell img={'assets/encounters/gravicius/4intervention.png'} alt={'Intervention'} description={"Divination\nScarab"} id={'t44'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/4intervention.png'} alt={'Intervention'} description={"10/15/20/32 Timed Craft"} id={'t45'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/4intervention.png'} alt={'Intervention'} description={"20/30/40/60 Timed Craft"} id={'t45'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 5]}/>
                     <BetrayalTableCell img={'assets/encounters/haku/4intervention.png'} alt={'Intervention'} description={"Ambush\nScarab"} id={'t46'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 6]}/>
                     <BetrayalTableCell img={'assets/encounters/hillock/4intervention.png'} alt={'Intervention'} description={"Abyss\nScarab"} id={'t47'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 7]}/>
                     <BetrayalTableCell img={'assets/encounters/it_that_fled/4intervention.png'} alt={'Intervention'} description={"Breach\nScarab"} id={'t48'} colourID={this.state.selected[TABLE_COL_SIZE*4 + 8]}/>
