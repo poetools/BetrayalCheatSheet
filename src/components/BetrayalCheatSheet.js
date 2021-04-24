@@ -231,7 +231,7 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/cameria/2fort.png'} alt={'Fortification'} description={"Harbinger Orbs"} id={'t22'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/2fort.png'} alt={'Fortification'} description={"1/2/3 Unique Armours"} id={'t23'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 3]}/>
                     <BetrayalTableCell img={'assets/encounters/gravicius/2fort.png'} alt={'Fortification'} description={"Random Div. Cards"} id={'t24'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 4]}/>
-                    <BetrayalTableCell img={'assets/encounters/guff/2fort.png'} alt={'Fortification'} description={"Timed Craft"} id={'t25'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 5]}/>
+                    <BetrayalTableCell img={'assets/encounters/guff/2fort.png'} alt={'Fortification'} description={"?/30/?/40 Timed Craft"} id={'t25'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 5]}/>
                     <BetrayalTableCell img={'assets/encounters/haku/2fort.png'} alt={'Fortification'} description={"Magic/Rare/Unique Strongbox"} id={'t26'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 6]}/>
                     <BetrayalTableCell img={'assets/encounters/hillock/2fort.png'} alt={'Fortification'} description={"24/26/28/30 Quality to Armour"} id={'t27'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 7]}/>
                     <BetrayalTableCell img={'assets/encounters/it_that_fled/2fort.png'} alt={'Fortification'} description={"Enchanted Maps (Breach)"} id={'t28'} colourID={this.state.selected[TABLE_COL_SIZE*2 + 8]}/>
