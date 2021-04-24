@@ -292,6 +292,14 @@ class BetrayalTable extends React.Component {
     }
 }
 
+// Workaround for https://github.com/facebook/create-react-app/issues/9992
+function publicFile(assetPath) {
+    if (assetPath == null || assetPath === '') {
+        return '';
+    }
+    return require(`../../public/${assetPath}`)?.default;
+}
+
 class BetrayalTableCell extends React.Component {
     colourList = ['', 'colourOne', 'colourTwo', 'colourThree'];
 
@@ -318,7 +326,7 @@ class BetrayalTableCell extends React.Component {
     render() {
         const key = this.props.description;
         return (
-            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={this.props.img} alt={this.props.alt} className="select-disable"/>
+            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={publicFile(this.props.img)} alt={this.props.alt} className="select-disable"/>
                 {this.props.description.split('\n').map(x => {
                     return <p key={key + x}>{x.replace(/\//g, '/\u200B')}</p>;
                 })}
@@ -352,7 +360,7 @@ class BetrayalTableHeader extends React.Component {
 
     render() {
         return (
-            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={this.props.img} alt={this.props.alt} className="select-disable"/>
+            <td className={this.colourList[this.state.colourID]} id={this.props.id}><img src={publicFile(this.props.img)} alt={this.props.alt} className="select-disable"/>
                 <h1>
                     {this.props.description}
                 </h1>
