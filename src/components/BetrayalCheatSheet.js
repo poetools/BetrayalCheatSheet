@@ -114,7 +114,7 @@ class BetrayalCheatSheet extends React.Component {
                             <h1>Great</h1>
                             <BlockPicker
                                 color={this.state.colourOne}
-                                colors={['#0a5511', '#228B22', '#006400', '#3CB371', '#036305']}
+                                colors={['#004401', '#004f01', '#006601', '#007a01', '#008c01']}
                                 onChangeComplete={(e) => this.handleChangeComplete(e, 'colourOne')}
                             />
                         </div>
@@ -122,7 +122,7 @@ class BetrayalCheatSheet extends React.Component {
                             <h1>Maybe</h1>
                             <BlockPicker
                                 color={this.state.colourTwo}
-                                colors={['#54550a', '#808000', '#A0522D', '#FFA500', '#c27e00']}
+                                colors={['#734a00', '#8a5900', '#a86d00', '#c27e00', '#e69500']}
                                 onChangeComplete={(e) => this.handleChangeComplete(e, 'colourTwo')}
                             />
                         </div>
@@ -130,7 +130,7 @@ class BetrayalCheatSheet extends React.Component {
                             <h1>Ignore</h1>
                             <BlockPicker
                                 color={this.state.colourThree}
-                                colors={['#590404', '#8f1100', '#DC143C', '#B22222', '#800000']}
+                                colors={['#590000', '#690000', '#780000', '#870000', '#9e0000']}
                                 onChangeComplete={(e) => this.handleChangeComplete(e, 'colourThree')}
                             />
                         </div>
