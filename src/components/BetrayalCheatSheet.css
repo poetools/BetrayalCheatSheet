@@ -21,12 +21,13 @@ section {
 
 #cheatsheet-table h1 {
     margin-top: 0;
-    font-weight: 200;
+    font-weight: bold;
     font-size: 1vw;
 }
 
 #cheatsheet-table p {
     margin: 0;
+    font-weight: bold;
     font-size: 0.8vw;
 }
 
@@ -41,7 +42,7 @@ section {
 }
 
 #cheatsheet-table table, th, td {
-    border: 2px solid #333333;
+    border: 2px solid #585c5c;
     padding: 0;
 }
 
@@ -51,15 +52,15 @@ section {
 }
 
 .colourOne {
-    background-color: #0a5511;
+    background-color: #004401;
 }
 
 .colourTwo {
-    background-color: #54550a;
+    background-color: #734a00;
 }
 
 .colourThree {
-    background-color: #590404;
+    background-color: #590000;
 }
 
 section#colour-selectors {
