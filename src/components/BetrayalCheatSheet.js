@@ -11,9 +11,9 @@ class BetrayalCheatSheet extends React.Component {
     constructor() {
         super();
         this.state = {
-            colourOne: localStorage.getItem('colourOne') ? localStorage.getItem('colourOne') : '#0a5511',
-            colourTwo: localStorage.getItem('colourTwo') ? localStorage.getItem('colourTwo') : '#54550a',
-            colourThree: localStorage.getItem('colourThree') ? localStorage.getItem('colourThree') : '#590404'
+            colourOne: localStorage.getItem('colourOne') ? localStorage.getItem('colourOne') : '#004401',
+            colourTwo: localStorage.getItem('colourTwo') ? localStorage.getItem('colourTwo') : '#734a00',
+            colourThree: localStorage.getItem('colourThree') ? localStorage.getItem('colourThree') : '#590000'
         };
 
         if (window.location.hash.includes('share=')) {
