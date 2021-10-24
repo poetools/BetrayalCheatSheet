@@ -248,7 +248,7 @@ class BetrayalTable extends React.Component {
                 </tr>
                 <tr>
                     <BetrayalTableCell img={'assets/locations/3research.png'} alt={'Research'} description={""} id={'t30'} colourID={this.state.selected[TABLE_COL_SIZE*3]}/>
-                    <BetrayalTableCell img={'assets/encounters/aisling/3research.png'} alt={'Research'} description={"Veiled Chaos\nT4: Add 1-2 Veiled mods"} id={'t31'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 1]}/>
+                    <BetrayalTableCell img={'assets/encounters/aisling/3research.png'} alt={'Research'} description={"Veiled Chaos\nT4: Remove a random mod and Add 1 Veiled mod"} id={'t31'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 1]}/>
                     <BetrayalTableCell img={'assets/encounters/cameria/3research.png'} alt={'Research'} description={"Sextants"} id={'t32'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 2]}/>
                     <BetrayalTableCell img={'assets/encounters/elreon/3research.png'} alt={'Research'} description={"1/2/3 Unique Jewellery"} id={'t33'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 3]}/>
                     <BetrayalTableCell img={'assets/encounters/gravicius/3research.png'} alt={'Research'} description={"Swap Div Cards for random ones"} id={'t34'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 4]}/>
