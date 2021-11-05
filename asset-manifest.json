@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BetrayalCheatSheet/static/css/main.525aa52b.chunk.css",
-    "main.js": "/BetrayalCheatSheet/static/js/main.f05fe5a8.chunk.js",
-    "main.js.map": "/BetrayalCheatSheet/static/js/main.f05fe5a8.chunk.js.map",
+    "main.js": "/BetrayalCheatSheet/static/js/main.e141eb71.chunk.js",
+    "main.js.map": "/BetrayalCheatSheet/static/js/main.e141eb71.chunk.js.map",
     "runtime-main.js": "/BetrayalCheatSheet/static/js/runtime-main.e439eae8.js",
     "runtime-main.js.map": "/BetrayalCheatSheet/static/js/runtime-main.e439eae8.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/BetrayalCheatSheet/static/css/2.4c97ca4f.chunk.css",
@@ -41,6 +41,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.a4d98fe9.chunk.js",
     "static/css/main.525aa52b.chunk.css",
-    "static/js/main.f05fe5a8.chunk.js"
+    "static/js/main.e141eb71.chunk.js"
   ]
 }
