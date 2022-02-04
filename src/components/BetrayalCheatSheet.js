@@ -150,7 +150,7 @@ class BetrayalCheatSheet extends React.Component {
                     <h2>
                         Last updated for 3.17. Made by Multigrain and <a href="https://github.com/poetools/BetrayalCheatSheet/graphs/contributors">others</a>.
                     </h2>
-                    <p><a href={'https://github.com/poetools/BetrayalCheatSheet'}>Source Code</a></p>
+                    <p class="source-code"><a href={'https://github.com/poetools/BetrayalCheatSheet'}>Source Code</a></p>
                 </section>
             </div>
         );

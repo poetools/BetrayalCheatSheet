@@ -99,7 +99,7 @@ section#community-widgets {
     background-color: #313131;
 }
 
-#footer a {
+#footer .source-code {
     font-size: 18px;
 }
 #footer a:link, a:visited {
