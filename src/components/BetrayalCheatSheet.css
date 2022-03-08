@@ -117,3 +117,16 @@ section#community-widgets {
     -o-user-select: none;
     user-select: none;
 }
+
+@media print {
+    @page {
+        size: landscape;
+    }
+
+    #landing-description h2,
+    #colour-selectors,
+    #community-widgets,
+    #footer {
+        display: none;
+    }
+}
