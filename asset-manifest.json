@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BetrayalCheatSheet/static/css/main.688fef8d.chunk.css",
+    "main.css": "/BetrayalCheatSheet/static/css/main.e32dfadb.chunk.css",
     "main.js": "/BetrayalCheatSheet/static/js/main.72731319.chunk.js",
     "main.js.map": "/BetrayalCheatSheet/static/js/main.72731319.chunk.js.map",
     "runtime-main.js": "/BetrayalCheatSheet/static/js/runtime-main.e439eae8.js",
@@ -10,7 +10,7 @@
     "static/js/2.a4d98fe9.chunk.js.map": "/BetrayalCheatSheet/static/js/2.a4d98fe9.chunk.js.map",
     "index.html": "/BetrayalCheatSheet/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/BetrayalCheatSheet/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.688fef8d.chunk.css.map": "/BetrayalCheatSheet/static/css/main.688fef8d.chunk.css.map",
+    "static/css/main.e32dfadb.chunk.css.map": "/BetrayalCheatSheet/static/css/main.e32dfadb.chunk.css.map",
     "static/js/2.a4d98fe9.chunk.js.LICENSE.txt": "/BetrayalCheatSheet/static/js/2.a4d98fe9.chunk.js.LICENSE.txt",
     "static/media/1transport.png": "/BetrayalCheatSheet/static/media/1transport.a3f37af5.png",
     "static/media/2fort.png": "/BetrayalCheatSheet/static/media/2fort.f9c39d47.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.e439eae8.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.a4d98fe9.chunk.js",
-    "static/css/main.688fef8d.chunk.css",
+    "static/css/main.e32dfadb.chunk.css",
     "static/js/main.72731319.chunk.js"
   ]
 }
