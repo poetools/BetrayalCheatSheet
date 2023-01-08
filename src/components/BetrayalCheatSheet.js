@@ -148,7 +148,7 @@ class BetrayalCheatSheet extends React.Component {
                 </section>
                 <section id='footer'>
                     <h2>
-                        Last updated for 3.17. Made by Multigrain and <a href="https://github.com/poetools/BetrayalCheatSheet/graphs/contributors">others</a>.
+                        Last updated for 3.20. Made by Multigrain and <a href="https://github.com/poetools/BetrayalCheatSheet/graphs/contributors">others</a>.
                     </h2>
                     <p class="source-code"><a href={'https://github.com/poetools/BetrayalCheatSheet'}>Source Code</a></p>
                 </section>
@@ -258,8 +258,8 @@ class BetrayalTable extends React.Component {
                     <BetrayalTableCell img={'assets/encounters/janus/3research.png'} alt={'Research'} description={"Expedition Currency"} id={'t39'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 9]}/>
                     <BetrayalTableCell img={'assets/encounters/jorgin/3research.png'} alt={'Research'} description={"Tier 1/2/3 Corrupt Amulet to Talisman"} id={'t310'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 10]}/>
                     <BetrayalTableCell img={'assets/encounters/korell/3research.png'} alt={'Research'} description={"Fossils"} id={'t311'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 11]}/>
-                    <BetrayalTableCell img={'assets/encounters/leo/3research.png'} alt={'Research'} description={"Blessed/Divine/Ex/2 Ex on an Item"} id={'t312'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 12]}/>
-                    <BetrayalTableCell img={'assets/encounters/riker/3research.png'} alt={'Research'} description={"Take One Veiled Rare (Timed)"} id={'t313'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 13]}/>
+                    <BetrayalTableCell img={'assets/encounters/leo/3research.png'} alt={'Research'} description={"Reforge Colours/Sockets/Links"} id={'t312'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 12]}/>
+                    <BetrayalTableCell img={'assets/encounters/riker/3research.png'} alt={'Research'} description={"Take One Splinter/Essences/Fossils/Catalyst (Timed)"} id={'t313'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 13]}/>
                     <BetrayalTableCell img={'assets/encounters/rin/3research.png'} alt={'Research'} description={"Unique Maps"} id={'t314'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 14]}/>
                     <BetrayalTableCell img={'assets/encounters/tora/3research.png'} alt={'Research'} description={"20/70/200M XP to a Gem"} id={'t315'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 15]}/>
                     <BetrayalTableCell img={'assets/encounters/vagan/3research.png'} alt={'Research'} description={"Incubators"} id={'t316'} colourID={this.state.selected[TABLE_COL_SIZE*3 + 16]}/>
